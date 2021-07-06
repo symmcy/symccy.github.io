@@ -1,0 +1,26 @@
+.h1 {
+  background: url(./images/Snapchat-1464084065.jpg);
+  height: 100vh;
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid black;
+  margin-left: 75%;
+  display: inline-block;
+}
+
+.h1:hover {
+  background: url(./images/Snapchat-226887685.jpg);
+  height: 100vh;
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 2px solid black;
+  margin-left: 75%;
+  display: inline-block;
+}
+.h2 {
+  font-size: 50px;
+  margin-bottom: 800px;
+  border: 2px solid black;
+}
