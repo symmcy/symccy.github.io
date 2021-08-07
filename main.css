@@ -1,26 +1,55 @@
-.h1 {
-  background: url(./images/Snapchat-1464084065.jpg);
-  height: 100vh;
-  width: 25vw;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 2px solid black;
-  margin-left: 75%;
-  display: inline-block;
+body {
+  background-color: #21213b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: fantasy;
+}
+.box {
+  display: flex;
+  background-color: #2f2f4f;
+  padding: 4rem;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 800px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #21213b;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.h1:hover {
-  background: url(./images/Snapchat-226887685.jpg);
-  height: 100vh;
-  width: 25vw;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 2px solid black;
-  margin-left: 75%;
-  display: inline-block;
+.content {
+  font-size: 2rem;
+  color: #ccccd5;
+  margin-left: 2rem;
 }
-.h2 {
-  font-size: 50px;
-  margin-bottom: 800px;
-  border: 2px solid black;
+.image-container:hover .hover-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #21213b;
+  display: flex;
+  overflow: hidden;
+}
+.image-container .hover-image {
+  display: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #21213b;
+  width: 200px;
+  opacity: 0.8;
+}
+.image-container:hover .image-1 {
+  display: none;
 }
