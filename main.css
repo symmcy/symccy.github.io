@@ -6,7 +6,8 @@ body {
   justify-content: center;
   margin: 0;
   min-height: 100vh;
-  font-family: fantasy;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .box {
   display: flex;
@@ -14,13 +15,13 @@ body {
   padding: 4rem;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 800px;
 }
 img {
-  width: 200px;
-  height: 200px;
+  max-height: 200px;
+  max-width: 200px;
   border-radius: 50%;
   border: 10px solid #21213b;
+  object-fit: contain;
 }
 .image-container {
   display: flex;
@@ -31,7 +32,7 @@ img {
 .content {
   font-size: 2rem;
   color: #ccccd5;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .image-container:hover .hover-image {
   width: 200px;
@@ -52,4 +53,24 @@ img {
 }
 .image-container:hover .image-1 {
   display: none;
+}
+p {
+  font-size: 1rem;
+  text-decoration: solid;
+  font-weight: bold;
+}
+li {
+  list-style-type: disc;
+  font-size: 1.5rem;
+}
+.content:hover {
+  opacity: 0.4;
+}
+.link {
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+
+  color: rgb(187, 214, 230);
+  ;
 }
