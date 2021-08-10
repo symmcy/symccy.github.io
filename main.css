@@ -19,13 +19,14 @@ img {
   max-height: 200px;
   max-width: 200px;
   border-radius: 50%;
-  border: 10px solid #21213b;
+  border: 5px solid #21213b;
   object-fit: contain;
 }
 .image-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .content {
@@ -37,7 +38,7 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 10px solid #21213b;
+  border: 5px solid #21213b;
   display: flex;
   overflow: hidden;
 }
@@ -46,7 +47,7 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 10px solid #21213b;
+  border: 5px solid #21213b;
   width: 200px;
   opacity: 0.8;
 }
@@ -68,7 +69,8 @@ li {
 .link {
   font-size: 2rem;
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Dancing Script", cursive;
+  letter-spacing: 0.1px;
 
   color: rgb(187, 214, 230);
   opacity: 0.5;
@@ -76,3 +78,12 @@ li {
 .link:hover {
   opacity: 1;
 }
+.contact {
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 5rem;
+  ;
+}
+.left{
+  display: flex;
+  flex-direction: column;
